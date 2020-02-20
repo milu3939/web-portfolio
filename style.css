@@ -1,0 +1,19 @@
+body{
+    font-family: 'Hind Siliguri', sans-serif;
+}
+h1{
+    font-size: 55px;
+    font-family: 'Courgette', cursive;
+}
+.highlite{
+    color: chocolate;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 3%;
+}
+.half-width img{
+    width: 100%;
+}
