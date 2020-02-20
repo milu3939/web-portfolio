@@ -1,9 +1,18 @@
 body{
+    margin: 0px;
     font-family: 'Hind Siliguri', sans-serif;
 }
 h1{
     font-size: 55px;
     font-family: 'Courgette', cursive;
+}
+h2{
+    font-size: 40px;
+    font-family: 'Courgette', cursive;
+}
+p{
+    color: teal;
+    font-size: 16px;
 }
 .highlite{
     color: chocolate;
@@ -16,4 +25,49 @@ h1{
 }
 .half-width img{
     width: 100%;
+}
+.top-banner{
+    background-image: url("image/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, rgb(255, 0, 85), rgb(192, 40, 159));
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+.middle-banner{
+    background-image: url("image/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.line-highlight{
+    color: hotpink;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 70%;
+    background-color: white;
+}
+.experience-area{
+    background-image: url("image/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+    border-left: 8px solid;
+    border-image: linear-gradient(180deg, lightsalmon,tomato);
+    border-image-slice: 1;
+}
+#junior-web{
+    border-left: 6px solid;
+    border-image: linear-gradient(180deg, rgb(0, 119, 255),rgb(0, 204, 255));
+    border-image-slice: 1;
 }
